@@ -1,16 +1,16 @@
 {
   "name": "linechatbot",
   "version": "1.0.0",
-  "description": "the LineChatBot",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SardineBob/LineChatBot.git"
   },
-  "author": "SardineBob",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SardineBob/LineChatBot/issues"
@@ -19,8 +19,5 @@
   "dependencies": {
     "express": "^4.16.2",
     "linebot": "^1.3.0"
-  },
-  "engines": {
-    "node": "9.2.1"
   }
 }
