@@ -1,4 +1,4 @@
-var linebot = require('linebot');
+ï»¿var linebot = require('linebot');
 var express = require('express');
 
 var bot = linebot({
@@ -11,7 +11,7 @@ bot.on('message', function(event) {
   console.log(event.message.type);
   if (event.message.type = 'text') {
     var msg = event.message.text;
-    event.reply("§A¦n§Ú©m¤ı¡A§Ú¬O¾÷¾¹¤H¤p«Â¡A§Ú¦¬¨ì§A»¡ªº:" + msg + "¡FµM«á§Ú²{¦b¬OÆxÄM¼Ò¦¡¡A©Ò¥H§Ú­«½Æ§AÁ¿ªº¸Ü¡A«ç¼Ë?«r§Ú°Ú¡C").then(function(data) {
+    event.reply("ä½ å¥½æˆ‘å§“ç‹ï¼Œæˆ‘æ˜¯æ©Ÿå™¨äººå°å¨ï¼Œæˆ‘æ”¶åˆ°ä½ èªªçš„:" + msg + "ï¼›ç„¶å¾Œæˆ‘ç¾åœ¨æ˜¯é¸šéµ¡æ¨¡å¼ï¼Œæ‰€ä»¥æˆ‘é‡è¤‡ä½ è¬›çš„è©±ï¼Œæ€æ¨£?å’¬æˆ‘å•Šã€‚").then(function(data) {
       // success 
       console.log(msg);
     }).catch(function(error) {
@@ -25,7 +25,7 @@ const app = express();
 const linebotParser = bot.parser();
 app.post('/', linebotParser);
 
-//¦]¬° express ¹w³]¨« port 3000¡A¦Ó heroku ¤W¹w³]«o¤£¬O¡A­n³z¹L¤U¦Cµ{¦¡Âà´«
+//å› ç‚º express é è¨­èµ° port 3000ï¼Œè€Œ heroku ä¸Šé è¨­å»ä¸æ˜¯ï¼Œè¦é€éä¸‹åˆ—ç¨‹å¼è½‰æ›
 var server = app.listen(process.env.PORT || 8080, function() {
   var port = server.address().port;
   console.log("App now running on port", port);
