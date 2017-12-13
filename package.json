@@ -1,7 +1,7 @@
 {
   "name": "linechatbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "the LineChatBot",
   "main": "index.js",
   "scripts": {
     "start": "node ."
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/SardineBob/LineChatBot.git"
   },
-  "author": "",
+  "author": "SardineBob",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SardineBob/LineChatBot/issues"
@@ -19,5 +19,8 @@
   "dependencies": {
     "express": "^4.16.2",
     "linebot": "^1.3.0"
+  },
+  "engines": {
+    "node": "9.2.1"
   }
 }
