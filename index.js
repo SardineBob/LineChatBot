@@ -11,7 +11,7 @@ bot.on('message', function(event) {
   console.log(event.message.type);
   if (event.message.type = 'text') {
     var msg = event.message.text;
-    event.reply("你好我姓王，我是機器人小威，我收到你說的:" + msg + "；然後我現在是鸚鵡模式，所以我重複你講的話，怎樣?咬我啊。").then(function(data) {
+    event.reply("你好我姓王，我是機器人小威，我收到你說的:" + msg + "。").then(function(data) {
       // success 
       console.log(msg);
     }).catch(function(error) {
