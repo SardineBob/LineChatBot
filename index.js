@@ -1,4 +1,4 @@
-var linebot = require('linebot');
+/*var linebot = require('linebot');
 var express = require('express');
 
 var bot = linebot({
@@ -19,4 +19,4 @@ app.post('/', linebotParser);
 var server = app.listen(process.env.PORT || 8080, function() {
   var port = server.address().port;
   console.log("App now running on port", port);
-});
+});*/
